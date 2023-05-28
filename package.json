@@ -1,0 +1,60 @@
+{
+  "name": "mm-component-library",
+  "version": "1.0.0",
+  "description": "A sample repo that contains modules & storybook",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "storybook"
+  ],
+  "author": "Malairaja",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.2",
+    "@babel/preset-react": "^7.22.3",
+    "@babel/preset-typescript": "^7.21.5",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@storybook/addon-essentials": "^7.0.18",
+    "@storybook/addon-interactions": "^7.0.18",
+    "@storybook/addon-links": "^7.0.18",
+    "@storybook/blocks": "^7.0.18",
+    "@storybook/react": "^7.0.18",
+    "@storybook/react-webpack5": "^7.0.18",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/node": "^20.2.4",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.24",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.23.0",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "^7.0.18",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

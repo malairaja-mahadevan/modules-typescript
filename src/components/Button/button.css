@@ -1,0 +1,33 @@
+.mm-button {
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.mm-button--primary {
+  background-color: blue;
+}
+
+.mm-button--secondary {
+  background-color: black;
+}
+
+.mm-button--tertiary {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+}
+
+.mm-button--small {
+  font-size: 14px;
+}
+
+.mm-button--medium {
+  font-size: 16px;
+  padding: 8px 15px;
+}
+
+.mm-button--large {
+  font-size: 18px;
+  padding: 10px 20px;
+}
