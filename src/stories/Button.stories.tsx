@@ -15,7 +15,7 @@ const sizes = {
 };
 
 const meta: Meta<typeof Button> = {
-  title: 'Components/Button',
+  title: 'Example/Button',
   component: Button,
   argTypes: {
     modifier: {
